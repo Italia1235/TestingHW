@@ -6,7 +6,7 @@ class DiceImplTest {
     Dice dice = new DiceImpl();
 
     @Test
-    @DisplayName("Тест рандома")
+    @DisplayName("Тест броска кубика")
     void roll() {
         Assertions.assertTrue(dice.roll() > 0);
         Assertions.assertTrue(dice.roll() <= 6);

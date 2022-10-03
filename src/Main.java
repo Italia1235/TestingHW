@@ -4,6 +4,6 @@ public class Main {
         Dice dice = new DiceImpl();
         GameWinnerPrinter winnerPrinter = new GameWinnerConsolePrinter();
         Game game = new Game(dice, winnerPrinter);
-        game.playGame(new Player("Вася"), new Player("Игорь"));
+        game.playGame(new Player("John"), new Player("Bob"));
     }
 }
